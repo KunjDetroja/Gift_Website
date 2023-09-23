@@ -15,27 +15,6 @@ function Header() {
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5WZKRdDUt49E4b3K5eD9BWL7XSgLxKL7IQ&usqp=CAU"
     }
   ]
-  
-  
-//     const [data, setData] = useState([]);
-
-// useEffect(() => {
-//   // Replace 'API_URL' with the actual API endpoint
-//   fetch()
-//     .then((response) => {
-//       if (!response.ok) {
-//         throw new Error('Network response was not ok');
-//       }
-//       return response.json();
-//     })
-//     .then((jsonData) => {
-//       setData(jsonData);
-//     })
-//     .catch((error) => {
-//       console.error('Error fetching data:', error);
-//     });
-// }, []);
-
 return (
   <>
   
