@@ -81,6 +81,10 @@
   .usericon{
     font-size: 22px;
   }
+  .lifont{
+    font-size: 16px;
+    /* font-weight: bold; */
+  }
 }
 .box1{
   justify-content: space-between;
@@ -102,8 +106,7 @@
   .usericon{
     font-size: 22px;
   }
+  
 }
-
-
 
 

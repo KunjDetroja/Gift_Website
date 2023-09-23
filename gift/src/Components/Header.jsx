@@ -26,7 +26,7 @@ return (
         infiniteLoop={true}
         autoPlay={true}
         interval={3000}
-        style={{ height: '100%' }}
+        style={{ height: '100px' }}
       >
         {demodata.map((item, index) => (
           <div key={index} className="carousel-slide">

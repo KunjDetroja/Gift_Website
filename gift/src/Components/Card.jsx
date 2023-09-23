@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 
 import { productData } from "./data";
+import ProductPage from "./ProductPage";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -13,11 +14,11 @@ function Card() {
   return (
     <div>
        <div className="App">
-        <Carousel breakPoints={breakPoints}>
+        <Carousel breakPoints={breakPoints} >
           {productData.map((x) => (
             <div>
               <img
-                
+                style={{height:'250px',padding:'7px'}}
                 src={x.imageurl}
                 alt="product"
               />
@@ -31,6 +32,7 @@ function Card() {
           ))}
         </Carousel>
       </div>
+      <ProductPage/>
     </div>
   );
 }

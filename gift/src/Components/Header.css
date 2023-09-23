@@ -14,12 +14,12 @@ body {
 
 /* Carousel styles */
 .carousel {
-  width: 90%; /* Set the width of the carousel to 96% */
-  max-width: 1440px; /* Adjust as needed */
-  min-height: 35rem; /* Minimum height for the carousel */
-  max-height: 35rem; /* Maximum height for the carousel */
-  margin: 0 auto; /* Center the carousel horizontally with margins on both sides */
-  background-color: #333; /* Background color for the carousel */
+  width: 100%; /* Set the width of the carousel to 96% */
+  max-width: 1440px; /* Adjust as needed
+  /* min-height: 35rem; Minimum height for the carousel */
+  /* max-height: 35rem; Maximum height for the carousel */ 
+  /* margin: 0 auto; Center the carousel horizontally with margins on both sides */
+  /* background-color: #333; Background color for the carousel */
   margin-bottom: 5px; /* Margin at the bottom of the carousel */
 }
 .carousel.carousel-slider {
@@ -31,13 +31,10 @@ body {
   
 }
 
-.carousel .slide {
-  /* ... Other styles ... */
-}
 
 .carousel .slide img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
   object-fit: cover; /* Stretch the image to cover the entire slide */
 }
 
