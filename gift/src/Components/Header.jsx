@@ -1,18 +1,25 @@
 import React from 'react';
-// import  { useState, useEffect } from 'react';
+import  { useState } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Header.css'
 import { Carousel } from 'react-responsive-carousel';
 function Header() {
+  const [img,setImg] = useState('imageUrl')
   const demodata = [
     {
-      "imageUrl":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Grand-Vitara/10505/1689588262879/front-left-side-47.jpg"
+      "imageUrl":"https://www.fnp.com/assets/images/custom/new-desk-home/hero-banners/Daughters-Day_Desk.jpg"
     },
     {
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmlM4cOwkqa95XuYml6OFgbn4gYHok96R1Q&usqp=CAU"
+      "imageUrl": "https://www.fnp.com/assets/images/custom/new-desk-home/hero-banners/Birthday_Desk_13sept.jpg"
     },
     {
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5WZKRdDUt49E4b3K5eD9BWL7XSgLxKL7IQ&usqp=CAU"
+      "imageUrl": "https://www.fnp.com/assets/images/custom/new-desk-home/hero-banners/Cake-Banner_Desk_11sep.jpg"
+    },
+    {
+      "imageUrl": "https://www.fnp.com/assets/images/custom/new-desk-home/hero-banners/Desk-Hero-Banner_Gift-Hampers2.jpg"
+    },
+    {
+      "imageUrl": "https://www.fnp.com/assets/images/custom/new-desk-home/hero-banners/Desk-Hero-Banner_Chocolates_6sept.jpg"
     }
   ]
 return (
