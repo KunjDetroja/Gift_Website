@@ -4,7 +4,7 @@ import Slider from "../Pages/Slider";
 // import Buy from "../Pages/Buy";
 import Optionbar from "./Optionbar";
 import Homenav from "./Homenav";
-import Card from "./Card";
+// import Card from "./Card";
 
 function Home() {
   return (
