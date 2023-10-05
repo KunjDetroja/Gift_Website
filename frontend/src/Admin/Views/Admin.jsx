@@ -78,15 +78,11 @@ const Dashboard = () => {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={6} lg={6}>
             <CustomersTable />
             </Grid>
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={6} lg={6}>
               <SalesOverTime/>
-            </Grid>
-           
-            <Grid item xs={12}>
-              <CustomersTable />
             </Grid>
           </Grid>
         </AdminPannel>

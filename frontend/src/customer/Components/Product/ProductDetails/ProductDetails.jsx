@@ -136,11 +136,11 @@ export default function ProductDetails() {
 
         {/* similer product */}
         <section className=" pt-10">
-          <h1 className="py-5 text-xl font-bold">Similer Products</h1>
+          {/* <h1 className="py-5 text-xl font-bold">Similer Products</h1> */}
           <div className="flex flex-wrap space-y-5">
             {/* {console.log(customersProduct)} */}
             {customersProduct?.products?.content?.map((item) => {
-              if (item.category === customersProduct.product.category) {
+              if (item.category === customersProduct?.product?.category) {
                 
                 <HomeProductCard product={item} />;
                 console.log(item)

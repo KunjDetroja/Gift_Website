@@ -14,7 +14,7 @@ import AuthModal from "../Auth/AuthModal";
 import { useDispatch, useSelector } from "react-redux";
 import { deepPurple } from "@mui/material/colors";
 import { getUser, logout } from "../../../Redux/Auth/Action";
-import { getCart } from "../../../Redux/Customers/Cart/Action";
+// import { getCart } from "../../../Redux/Customers/Cart/Action";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -34,7 +34,7 @@ export default function Navigation() {
   useEffect(() => {
     if (jwt) {
       dispatch(getUser(jwt));
-      dispatch(getCart(jwt));
+      // dispatch(getCart(jwt));
     }
   }, [jwt]);
   
@@ -188,7 +188,7 @@ export default function Navigation() {
                               {section.items.map((item) => (
                                 <li key={item.name} className="flow-root">
                                   <p className="-m-2 block p-2 text-gray-500">
-                                    {"item.name"}
+                                    {item.name}
                                   </p>
                                 </li>
                               ))}
@@ -227,12 +227,12 @@ export default function Navigation() {
                 <div className="border-t border-gray-200 px-4 py-6">
                   <Link href="/" className="-m-2 flex items-center p-2">
                     <img
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
+                      src="https://tailwindui.com/img/flags/flag-india.svg"
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
                     <span className="ml-3 block text-base font-medium text-gray-900">
-                      CAD
+                      IND
                     </span>
                     <span className="sr-only">, change currency</span>
                   </Link>
@@ -262,8 +262,8 @@ export default function Navigation() {
                 <Link to="/">
                   <span className="sr-only">Your Company</span>
                   <img
-                    src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
-                    alt="Shopwithzosh"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KhDqjJN2JaeLxesP_fYmOe_BRM4SELynNA&usqp=CAU"
+                    alt=""
                     className="h-8 w-8 mr-2"
                   />
                 </Link>
@@ -470,7 +470,7 @@ export default function Navigation() {
                 </div>
 
                 {/* Cart */}
-                <div className="ml-4 flow-root lg:ml-6">
+                {/* <div className="ml-4 flow-root lg:ml-6">
                   <Button
                     onClick={() => navigate("/cart")}
                     className="group -m-2 flex items-center p-2"
@@ -484,7 +484,7 @@ export default function Navigation() {
                     </span>
                     <span className="sr-only">items in cart, view bag</span>
                   </Button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

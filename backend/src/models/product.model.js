@@ -22,18 +22,8 @@ const productSchema = new mongoose.Schema({
   imageUrl: {
     type: String,
   },
-  ratings: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'ratings',
-    },
-  ], 
-  reviews: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'reviews',
-    },
-  ], 
+
+   
 
   // For cake
 

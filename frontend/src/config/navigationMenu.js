@@ -11,21 +11,12 @@ export  const navigation = {
           id: 'giftsbychoice',
           name: 'GIFTS BY CHOICE',
           items: [
-            { name: 'Cakes', id:"cake", href: `birthday/cake` },
-            { name: 'Flower', id:"flower", href: '#' },
+            { name: 'Cakes', id:"cake"},
+            { name: 'Flower', id:"flower" },
             { name: 'PLant', id: 'plant' },
           ],
         },
-        {
-          id: 'giftsbyprice',
-          name: 'GIFT BY PRICE',
-          items: [
-            { name: 'Gifts Rs100-Rs500', id: 'gift100' },
-            { name: 'Gifts Rs501-Rs1000', id: 'gift500' },
-            { name: 'Gifts Rs1001-Rs1500', id: 'gift1000' },
-            { name: 'Gifts above 1500Rs', id: 'gift1500' }
-          ],
-        },
+        
       ],
     },
     {
@@ -45,7 +36,6 @@ export  const navigation = {
             { name: 'Red Velvet', id: 'redvelvet' },
             { name: 'Mixfruit', id: 'mixfruit' },
             { name: 'Blackforest', id: 'blackforest' },
-            { name: 'Others', id: 'others' },
             
           ],
         },
@@ -56,19 +46,9 @@ export  const navigation = {
             { name: 'Round', id: 'round' },
             { name: 'Heart', id: 'heart' },
             { name: 'Square', id: 'square' },
-            { name: 'Others', id: 'others' },
           ],
         },
-        {
-          id: 'byprice',
-          name: 'CAKE BY PRICE',
-          items: [
-            { name: 'cake Rs100-Rs500', id: 'caket100' },
-            { name: 'cake Rs501-Rs1000', id: 'cake500' },
-            { name: 'cake Rs1001-Rs1500', id: 'cake1000' },
-            { name: 'cake above 1500Rs', id: 'cake1500' }
-          ],
-        },
+        
       ],
     },
     {
@@ -87,7 +67,6 @@ export  const navigation = {
             { name: 'Orchids', id: 'orchids' },
             { name: 'Mixed Flowers', id: 'mixflowers' },
             { name: 'Daisy', id: 'daisy' },
-            { name: 'Others', id: 'others' },
             
           ],
         },
@@ -111,7 +90,6 @@ export  const navigation = {
             { name: 'Pink', id: 'pink' },
             { name: 'White', id: 'white' },
             { name: 'Blue', id: 'blue' },
-            { name: 'Others', id: 'other' }
           ],
         },
       ],
@@ -132,7 +110,6 @@ export  const navigation = {
             { name: 'Jade', id: 'jade' },
             { name: 'Syngonium', id: 'synogonium' },
             { name: 'Bonsai', id: 'bonsai' },
-            { name: 'Others', id: 'others' },
             
           ],
         },
@@ -144,7 +121,6 @@ export  const navigation = {
             { name: 'Ceramic', id: 'ceramic' },
             { name: 'Glass', id: 'glass' },
             { name: 'Resin', id: 'resin' },
-            { name: 'others', id: 'others' }
           ],
         },
         {

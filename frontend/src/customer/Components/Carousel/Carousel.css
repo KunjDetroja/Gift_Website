@@ -47,19 +47,3 @@
   background-color: #555;
 }
 
-@media screen and (orientation: portrait) {
-  .carousel1 {
-    display: none;
-  }
-  .carousel2 {
-    visibility: visible;
-  }
-}
-@media screen and (orientation: landscape) {
-  .carousel1 {
-    visibility: visible;
-  }
-  .carousel2 {
-    display: none;
-  }
-}
